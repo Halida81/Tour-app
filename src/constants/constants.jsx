@@ -2,6 +2,18 @@ import issykKol from "../assets/photos/issyk-kol.jpg";
 import icon1 from "../assets/icons/firstIcon.svg";
 import icon2 from "../assets/icons/secondIcon.svg";
 import icon3 from "../assets/icons/Icon3.svg";
+import gallery1 from "../assets/photos/Gallery1.svg";
+import gallery2 from "../assets/photos/gallery2.svg";
+import gallery3 from "../assets/photos/gallery3.svg";
+import AirbnbLogo from "../assets/icons/AirbnbLogo.svg";
+import AmazonLogo from "../assets/icons/AmazonLogo.svg";
+import FedExLogo from "../assets/icons/FedExLogo.svg";
+import GoogleLogo from "../assets/icons/GoogleLogo.svg";
+import MicrosoftLogo from "../assets/icons/MicrosoftLogo.svg";
+import OLAlogo from "../assets/icons/OLAlogo.svg";
+import OYOLogo from "../assets/icons/OYOLogo.svg";
+import WalmartLogo from "../assets/icons/WalmartLogo.svg";
+
 export const DATA = [
   { id: "1", name: "Issyk-Kol", image: issykKol, day: "2", price: "100" },
   { id: "2", name: "Issyk-Kol", image: issykKol, day: "2", price: "100" },
@@ -236,7 +248,7 @@ export const WHYCHOOSEUSDATA = [
   {
     id: "3",
     title: "Global Coverage",
-    text: "There are many tourist attractions, hotels and interesting entertainment.",
+    text: "There are many tourist attractions, hotels and interesting entertainment .",
     icon: icon3,
   },
 ];
@@ -245,4 +257,45 @@ export const VIDEODATA = [
   { id: "1", url: "https://youtu.be/Gb0TQ7VeApY", name: "Batyr" },
   { id: "2", url: "https://youtu.be/W5D20sNvnHY", name: "Batyr" },
   { id: "3", url: "https://youtu.be/3JXtL6qfSe8", name: "Batyr" },
+];
+
+export const BLOG = [
+  {
+    id: "1",
+    date: "21 june 2021",
+    image: gallery1,
+    bg: "#71C3FD",
+    subTitle: "The Amazing Difference a Year of Travelling .",
+    title:
+      "There isn’t a relationship around that can survive without trust. My relationship with my dog Peyton is deep...",
+  },
+  {
+    id: "2",
+    date: "28 june 2021",
+    image: gallery2,
+    bg: "#FA7436",
+    subTitle: "Reflections on 5 Months of Travel: Time to Hang .",
+    title:
+      "Doting pet parents have a relentless need to constantly photograph every adorable pet moment...",
+  },
+  {
+    id: "3",
+    date: "10 july 2021",
+    image: gallery3,
+    bg: "#FC747B",
+    subTitle: "How to Save Money While Visiting Africa sgsg.",
+    title:
+      "It is easy to forget that animals are living creatures with a beating heart exclusive exclusive.",
+  },
+];
+
+export const PARTNERSLOGOS = [
+  { id: "1", logo: AirbnbLogo },
+  { id: "2", logo: AmazonLogo },
+  { id: "3", logo: FedExLogo },
+  { id: "4", logo: GoogleLogo },
+  { id: "5", logo: MicrosoftLogo },
+  { id: "6", logo: OLAlogo },
+  { id: "7", logo: OYOLogo },
+  { id: "8", logo: WalmartLogo },
 ];

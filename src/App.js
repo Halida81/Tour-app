@@ -1,12 +1,16 @@
 import { margin, width } from "@mui/system";
-import { VIDEODATA } from "./constants/constants";
+import { BLOG, PARTNERSLOGOS, VIDEODATA } from "./constants/constants";
 import AboutUs from "./containers/AboutUs";
 import FollowUs from "./containers/FollowUs";
+import BlogCart from "./containers/ui/BlogCart";
 import { PlayVideo } from "./containers/PlayVideo";
 import TourPackages from "./containers/TourPackages";
 import VideoCarousel from "./containers/VideoCarousel";
 import WhyChooseus from "./containers/WhyChooseus";
 import Header from "./layout/Header";
+import Blog from "./containers/Blog";
+import OurPartners from "./containers/OurPartners";
+import Footer from "./containers/Footer";
 
 function App() {
   return (
@@ -16,6 +20,15 @@ function App() {
       <AboutUs />
       <TourPackages />
       <WhyChooseus />
+     <div style={{ margin: "0 ,auto", display:"flex", justifyContent:'center'}}>
+       {" "}
+       <VideoCarousel />
+     </div>
+      <Blog />
+
+     <OurPartners/>
+     <Footer/>
+      
       {/* <div
         style={{
           display: "grid",
@@ -30,10 +43,6 @@ function App() {
             <PlayVideo id={el.id} url={el.url} controls={true} />
           </div>
         ))}
-      </div> */}
-      {/* <div style={{ margin: "0 ,auto", display:"flex", justifyContent:'center'}}>
-        {" "}
-        <VideoCarousel />
       </div> */}
     </div>
   );

@@ -53,7 +53,7 @@ function VideoCarousel() {
         {VIDEODATA.map((step, index) => (
           <div key={step.id}>
             {Math.abs(activeStep - index) <= 2 ? (
-              <ReactPlayer url={step.urls} />
+              <ReactPlayer url={step.url} />
             ) : null}
           </div>
         ))}
