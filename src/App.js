@@ -1,11 +1,6 @@
-import { margin, width } from "@mui/system";
-import { BLOG, PARTNERSLOGOS, VIDEODATA } from "./constants/constants";
 import AboutUs from "./containers/AboutUs";
 import FollowUs from "./containers/FollowUs";
-import BlogCart from "./containers/ui/BlogCart";
-import { PlayVideo } from "./containers/PlayVideo";
 import TourPackages from "./containers/TourPackages";
-import VideoCarousel from "./containers/VideoCarousel";
 import WhyChooseus from "./containers/WhyChooseus";
 import Header from "./layout/Header";
 import Blog from "./containers/Blog";
@@ -20,15 +15,15 @@ function App() {
       <AboutUs />
       <TourPackages />
       <WhyChooseus />
-     {/* <div style={{ margin: "0 ,auto", display:"flex", justifyContent:'center'}}>
+      {/* <div style={{ margin: "0 ,auto", display:"flex", justifyContent:'center'}}>
        {" "}
        <VideoCarousel />
      </div> */}
       <Blog />
 
-     <OurPartners/>
-     <Footer/>
-      
+      <OurPartners />
+      <Footer />
+
       {/* <div
         style={{
           display: "grid",
