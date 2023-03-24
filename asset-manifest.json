@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Tour-app/static/css/main.a5bbe518.css",
+    "main.js": "/Tour-app/static/js/main.4cc132dc.js",
+    "static/media/Gallery1.svg": "/Tour-app/static/media/Gallery1.9f8dda018ce8b1f60cfefbe4c842f258.svg",
+    "static/media/gallery3.svg": "/Tour-app/static/media/gallery3.81341a27305e450422f8c91743f58ea5.svg",
+    "static/media/gallery2.svg": "/Tour-app/static/media/gallery2.7b384eb2381910fadd1d7109fbcd9e4f.svg",
+    "static/media/MainImage.svg": "/Tour-app/static/media/MainImage.90f0d1f9412e95d5b3d8f74c070ada22.svg",
+    "static/media/Image.svg": "/Tour-app/static/media/Image.83e5fd5c7b02f8b9bb86cd27ccfb2031.svg",
+    "static/media/issyk-kol.jpg": "/Tour-app/static/media/issyk-kol.b357fb219716a928ac18.jpg",
+    "static/media/Logo.svg": "/Tour-app/static/media/Logo.bde145e96260103be2dbf4e0989dcadf.svg",
+    "static/media/Element1.svg": "/Tour-app/static/media/Element1.20b85ad6361ada118f54bf10a710d5d0.svg",
+    "static/media/Element2.svg": "/Tour-app/static/media/Element2.0f46833f6941afaa83ed6bff839fbb54.svg",
+    "static/media/Element3.svg": "/Tour-app/static/media/Element3.bd7b46c7c3dc044f2030b5fec9b01bfe.svg",
+    "static/media/AirbnbLogo.svg": "/Tour-app/static/media/AirbnbLogo.761ed416e39ac150ebcd16813e5e5872.svg",
+    "static/media/MicrosoftLogo.svg": "/Tour-app/static/media/MicrosoftLogo.15ddbf2e6ba66d1efdd853243100a84b.svg",
+    "static/media/AmazonLogo.svg": "/Tour-app/static/media/AmazonLogo.5468a901c63aabaef52e5260cf3ada82.svg",
+    "static/media/WalmartLogo.svg": "/Tour-app/static/media/WalmartLogo.cda8c81b9ef671b8b2f9b86df845f5ae.svg",
+    "static/media/OLAlogo.svg": "/Tour-app/static/media/OLAlogo.230d6e6f1b4ac64a360a1de813322142.svg",
+    "static/media/Instagram.svg": "/Tour-app/static/media/Instagram.7eb316a1ff4c224cb5562782fd9d1fec.svg",
+    "static/media/GoogleLogo.svg": "/Tour-app/static/media/GoogleLogo.eb05ca66ef9744e0672bea0772b5278d.svg",
+    "static/media/Icon3.svg": "/Tour-app/static/media/Icon3.72b2f25530853ea782b4fdbe06d7fd27.svg",
+    "static/media/FedExLogo.svg": "/Tour-app/static/media/FedExLogo.a2347f7f7d7c2d565a10b2e0888e1ced.svg",
+    "static/media/Twitter.svg": "/Tour-app/static/media/Twitter.0d4d2c6764dc46750664d86e38cb6262.svg",
+    "static/media/firstIcon.svg": "/Tour-app/static/media/firstIcon.77084e7d2c01abed99877ca114cb84f0.svg",
+    "static/media/Youtube.svg": "/Tour-app/static/media/Youtube.4dc344f5d010804445394f83aba35876.svg",
+    "static/media/OYOLogo.svg": "/Tour-app/static/media/OYOLogo.c74bcf1aed2717d82f5b2491d0b29b43.svg",
+    "static/media/secondIcon.svg": "/Tour-app/static/media/secondIcon.26852a5b1b91e7d35deab0b25d2691af.svg",
+    "index.html": "/Tour-app/index.html",
+    "static/media/Line.svg": "/Tour-app/static/media/Line.e3b0f34d5bb837e3cec7a0f75fe4ed3c.svg",
+    "main.a5bbe518.css.map": "/Tour-app/static/css/main.a5bbe518.css.map",
+    "main.4cc132dc.js.map": "/Tour-app/static/js/main.4cc132dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5bbe518.css",
+    "static/js/main.4cc132dc.js"
+  ]
+}
