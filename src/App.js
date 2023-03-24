@@ -20,10 +20,10 @@ function App() {
       <AboutUs />
       <TourPackages />
       <WhyChooseus />
-     <div style={{ margin: "0 ,auto", display:"flex", justifyContent:'center'}}>
+     {/* <div style={{ margin: "0 ,auto", display:"flex", justifyContent:'center'}}>
        {" "}
        <VideoCarousel />
-     </div>
+     </div> */}
       <Blog />
 
      <OurPartners/>

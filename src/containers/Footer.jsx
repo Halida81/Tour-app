@@ -30,7 +30,7 @@ function Footer() {
           </div>
           <div className="col-xs-6 col-md-3">
             <h6>About Us</h6>
-            <ul class="footer-links">
+            <ul className="footer-links">
               <li>
                 <a href="http://scanfcode.com/category/front-end-development/">
                   UI Design
