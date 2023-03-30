@@ -254,9 +254,27 @@ export const WHYCHOOSEUSDATA = [
 ];
 
 export const VIDEODATA = [
-  { id: "1", url: "https://youtu.be/Gb0TQ7VeApY", name: "Batyr" },
-  { id: "2", url: "https://youtu.be/W5D20sNvnHY", name: "Batyr" },
-  { id: "3", url: "https://youtu.be/3JXtL6qfSe8", name: "Batyr" },
+  {
+    id: "1",
+    url: "http://www.youtube.com/watch?v=UC97mQeT89Y&ab_channel=STANDUP",
+    name: "Batyr",
+    poster:
+      "https://i.pinimg.com/originals/40/98/4e/40984ef0d4162cc2e965643af37daeb0.png",
+  },
+  {
+    id: "2",
+    url: "http://www.youtube.com/watch?v=UC97mQeT89Y&ab_channel=STANDUP",
+    name: "Batyr",
+    poster:
+      "https://cpykami.ru/wp-content/uploads/2019/10/ffc430cef511d4481155b0070bdae740.jpg",
+  },
+  {
+    id: "3",
+    url: "http://www.youtube.com/watch?v=UC97mQeT89Y&ab_channel=STANDUP",
+    name: "Batyr",
+    poster:
+      "https://burdastyle.ru/images/cache/2019/6/12/resize_900_900_true_q90_3156071_dafd18a5b4.jpeg",
+  },
 ];
 
 export const BLOG = [

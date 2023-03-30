@@ -2,26 +2,32 @@ import React from "react";
 import styled from "styled-components";
 import mainImage from "../assets/photos/MainImage.svg";
 import line from "../assets/photos/Line.svg";
-import element1 from '../assets/photos/Element1.svg'
-import element2 from '../assets/photos/Element2.svg'
+import element1 from "../assets/photos/Element1.svg";
+import element2 from "../assets/photos/Element2.svg";
 import { ReactComponent as Instagrams } from "../assets/icons/Instagram.svg";
 import { ReactComponent as Twitter } from "../assets/icons/Twitter.svg";
 import { ReactComponent as Youtube } from "../assets/icons/Youtube.svg";
+import Player from "./ui/Player";
+import video from "../assets/Bali.mp4";
 
 function FollowUs() {
   return (
     <Container>
       <div className="firstBlock">
-        <h1 className="bigText" style={{backgroundImage:`url(${element1})`}} >
+        <h1 className="bigText" style={{ backgroundImage: `url(${element1})` }}>
           It’s a Big World Out There, <span className="go">Go Explore</span>
         </h1>
-        <p className="paragraph" style={{backgroundImage:`url(${element2})`}}>
+        <p
+          className="paragraph"
+          style={{ backgroundImage: `url(${element2})` }}
+        >
           Time tracking software used by millions. A simple time tracker and
           timesheet app that lets you track work hours across projects......
         </p>
       </div>
       <div className="secondBlock">
-        <img src={mainImage} alt="mainImage" className="mainImage" />
+        <Player width="1020px" height="620px" url={video} />
+        {/* <img src={mainImage} alt="mainImage" className="mainImage" /> */}
         <p className="follow">
           Follow us <img src={line} alt="line" />{" "}
           <a href="#" className="icon">
@@ -48,10 +54,10 @@ const Container = styled.div`
   .secondBlock {
     display: flex;
     justify-content: center;
-    .mainImage {
+    /* .mainImage {
       width: 70%;
       height: 710px;
-    }
+    } */
 
     .follow {
       writing-mode: vertical-lr;
@@ -61,11 +67,13 @@ const Container = styled.div`
       line-height: 100%;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      margin-left: 30px;
+      /* margin-left: 30px; */
       color: #fa7436;
       margin-top: 40px;
+      .icon{
+        padding: 10px;
+      }
     }
-  
   }
   .firstBlock {
     display: flex;

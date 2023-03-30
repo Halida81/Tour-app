@@ -42,7 +42,7 @@ function AboutUs() {
 export default AboutUs;
 
 const Container = styled.div`
-  margin: 50px auto;
+  margin: 100px auto;
   display: flex;
   justify-content: center;
 
@@ -54,7 +54,7 @@ const Container = styled.div`
     margin-left: 20px;
 
     button {
-      margin: 70px 0;
+      /* margin: 70px 0; */
       width: 161px;
       height: 56px;
       border: none;

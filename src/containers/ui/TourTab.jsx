@@ -34,28 +34,30 @@ export default function TourTab() {
             <Tab label="Best Price" value="4" />
           </TabList>
         </StyledBox>
-        <TabPanel value="1">
-          <ViewAll data={DATA} />
-        </TabPanel>
-        <TabPanel value="2">
-          <ViewAll data={DATA2} />
-        </TabPanel>
-        <TabPanel value="3">
-          <ViewAll data={DATA3} />
-        </TabPanel>
-        <TabPanel value="4">
-          {" "}
-          <ViewAll data={DATA4} />
-        </TabPanel>
+        <StyledContainer>
+          <TabPanel value="1">
+            <ViewAll data={DATA} />
+          </TabPanel>
+          <TabPanel value="2">
+            <ViewAll data={DATA2} />
+          </TabPanel>
+          <TabPanel value="3">
+            <ViewAll data={DATA3} />
+          </TabPanel>
+          <TabPanel value="4">
+            {" "}
+            <ViewAll data={DATA4} />
+          </TabPanel>
+        </StyledContainer>
       </TabContext>
     </Box>
   );
 }
 
-
 const StyledBox = styled(Box)`
   display: flex;
   justify-content: center;
+  align-items: center;
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -63,4 +65,10 @@ const StyledBox = styled(Box)`
   line-height: 100%;
   color: #666666;
   margin-top: 50px;
+`;
+
+const StyledContainer = styled(Box)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
